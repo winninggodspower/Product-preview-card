@@ -480,10 +480,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 2.5rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -512,16 +508,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100vw;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-full {
   width: 100%;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -538,18 +526,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.justify-self-start {
-  justify-self: start;
 }
 
 .overflow-hidden {
@@ -593,30 +569,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0px;
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-8 {
   padding: 2rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-4 {
@@ -624,77 +578,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.font-Montserrat {
-  font-family: Montserrat, sans-serif;
 }
 
 .font-fraunces {
   font-family: Fraunces, serif;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-\[2em\] {
-  font-size: 2em;
-}
-
-.text-\[3em\] {
-  font-size: 3em;
-}
-
-.text-\[2\.5em\] {
-  font-size: 2.5em;
-}
-
 .text-\[3rem\] {
   font-size: 3rem;
 }
 
+.text-\[1\.25rem\] {
+  font-size: 1.25rem;
+}
+
 .text-\[2\.5rem\] {
   font-size: 2.5rem;
-}
-
-.text-\[2\.7rem\] {
-  font-size: 2.7rem;
-}
-
-.text-\[2\.9rem\] {
-  font-size: 2.9rem;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
 }
 
 .font-bold {
@@ -705,44 +606,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-transform: uppercase;
 }
 
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-8 {
-  line-height: 2rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-loose {
-  line-height: 2;
-}
-
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-normal {
-  line-height: 1.5;
-}
-
-.leading-5 {
-  line-height: 1.25rem;
-}
-
 .leading-tight {
   line-height: 1.25;
 }
 
-.leading-7 {
-  line-height: 1.75rem;
-}
-
-.leading-9 {
-  line-height: 2.25rem;
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-dark_grey {
@@ -765,16 +634,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
-.hover\:bg-dark_blue:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(212 21% 14% / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#2f624f\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(47 98 79 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-\[\#245040\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(36 80 64 / var(--tw-bg-opacity));
@@ -783,6 +642,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 768px) {
   .md\:h-5\/6 {
     height: 83.333333%;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
   }
 
   .md\:grid-cols-2 {

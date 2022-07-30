@@ -11,13 +11,13 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Dark cyan: hsl(158, 36%, 37%)
+- Dark cyan: hsl(158, 36%, 37%) //for the buttons
 - Cream: hsl(30, 38%, 92%)
 
 ### Neutral
 
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
+- Very dark blue: hsl(212, 21%, 14%) // for the big text
+- Dark grayish blue: hsl(228, 12%, 48%) // for the smaller text
 - White: hsl(0, 0%, 100%)
 
 ## Typography
